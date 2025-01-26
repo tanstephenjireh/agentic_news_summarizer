@@ -9,7 +9,7 @@ psswrd = config["PASSWORD"]
 # app config
 st.set_page_config(page_title="News AI", page_icon="🤖")
 st.title("News AI 📰")
-st.info('The informations may not be fully accurate. Please verify with original sources.', icon="ℹ️")
+st.info('The infos may not be fully accurate. Please verify with original sources.', icon="ℹ️")
 
 def main():
     chinput = False # Controls the chat_input whether to show or not if the password is correct
